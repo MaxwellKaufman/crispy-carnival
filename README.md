@@ -6,7 +6,7 @@ This project is a website for a SEO(Search Engine optimization) company with sta
 
 ## Credits
 
-base code was give by the University of Utah coding bootcamp and assigned to be modified by students learning in the program
+base code was give by the University of Utah coding bootcamp and assigned to be modified by students learning in the program.
 
 ## License
 
