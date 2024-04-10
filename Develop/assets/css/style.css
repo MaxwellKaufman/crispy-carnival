@@ -42,9 +42,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Added margin to p to remove redundant code.*/
 p {
     font-size: 16px;
+    margin-bottom: 32px;
 }
 
 .hero {
@@ -71,7 +72,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Added text color to .benefits to streamline. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,10 +80,17 @@ p {
     float: right;
     width: 20%;
     height: 100%;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
+.benfits h3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+/* these 3 paragraphs are already under the benefits class. Removed code to streamline and changed to .benefits h3.
+}
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -96,23 +104,14 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+}*/
 }
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* These 3 images are all under the benefits class. streamlined code with .benefits img.
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -129,8 +128,17 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Added all these properties to the article to streamline code.
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,8 +164,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
+.content img {
+    max-height: 200px;
+}
+/* All images are under the same class. Streamlined code by putting them all under .content img.
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -168,8 +180,13 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+}*/
 
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*All text is under content class. Streamlined code by putting them all under .content h2.
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -183,7 +200,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
 .footer {
     padding: 30px;
